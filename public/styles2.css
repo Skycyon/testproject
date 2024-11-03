@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f4f6;
+}
+
+.test-container {
+    text-align: center;
+    width: 280px;
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Styling for the input-group container */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+/* Input takes 3 parts of the space */
+input[type="text"] {
+    flex: 3;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button takes 1 part of the space */
+#submitBtn {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+
+#feedbackMessage {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: #333;
+}

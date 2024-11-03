@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychological Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question" class="image-box">
+            <img src="/public/assets/QUESTION.png" alt="Question Image" id="questionImage">
+        </div>
+        <div id="timer" class="timer">15</div>
+
+        <div id="answerOptions" class="answer-options" style="display: none;">
+            <div class="option image-box" onclick="selectAnswer('a')">A<img src="/public/assets/A.png" alt="Option A"></div>
+            <div class="option image-box" onclick="selectAnswer('b')">B<img src="/public/assets/B.png" alt="Option B"></div>
+            <div class="option image-box" onclick="selectAnswer('c')">C<img src="/public/assets/C.png" alt="Option C"></div>
+            <div class="option image-box" onclick="selectAnswer('d')">D<img src="/public/assets/KEY.png" alt="Option D"></div>
+            <div class="option image-box" onclick="selectAnswer('e')">E<img src="/public/assets/E.png" alt="Option E"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychological Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question" class="image-box">
+            <img src="/public/assets/QUESTION.png" alt="Question Image" id="questionImage">
+        </div>
+        <div id="timer" class="timer">15</div>
+
+        <div id="answerOptions" class="answer-options" style="display: none;">
+            <div class="option image-box">
+                <img src="/public/assets/A.png" alt="Option A">
+                <input type="radio" name="answer" value="a" id="optionA">
+                <label for="optionA">A</label>
+            </div>
+            <div class="option image-box">
+                <img src="/public/assets/B.png" alt="Option B">
+                <input type="radio" name="answer" value="b" id="optionB">
+                <label for="optionB">B</label>
+            </div>
+            <div class="option image-box">
+                <img src="/public/assets/C.png" alt="Option C">
+                <input type="radio" name="answer" value="c" id="optionC">
+                <label for="optionC">C</label>
+            </div>
+            <div class="option image-box">
+                <img src="/public/assets/KEY.png" alt="Option D">
+                <input type="radio" name="answer" value="d" id="optionD">
+                <label for="optionD">D</label>
+            </div>
+            <div class="option image-box">
+                <img src="/public/assets/E.png" alt="Option E">
+                <input type="radio" name="answer" value="e" id="optionE">
+                <label for="optionE">E</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

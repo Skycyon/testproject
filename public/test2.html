@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychological Test - Test 2</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="test-container">
+        <!-- Label for test type -->
+        <h1 id="testLabel">Loading...</h1>
+        
+        <!-- Audio play button -->
+        <button id="playAudioBtn" onclick="playAudio()">Play Audio</button>
+        
+        <!-- Hidden audio element controlled by JavaScript -->
+        <audio id="audioElement" preload="auto"></audio>
+        
+        <!-- Input and submit button side by side -->
+        <div class="input-group">
+            <input type="text" id="userInput" placeholder="Type your answer here" maxlength="10">
+            <button id="submitBtn" onclick="submitAnswer()">Submit</button>
+        </div>
+        
+        <!-- Feedback message -->
+        <p id="feedbackMessage"></p>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychological Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Question Image -->
+        <div id="question" class="image-box">
+            <img src="/public/assets/pictures/QUESTION.png" alt="Question Image" id="questionImage">
+        </div>
+        
+        <!-- Countdown Timer -->
+        <div id="timer" class="timer">15</div>
+
+        <!-- Answer Options (Dynamically Populated) -->
+        <div id="answerOptions" class="answer-options" style="display: none;"></div>
+
+        <!-- Submit Button -->
+        <button id="submitBtn" onclick="submitAnswer()" style="display: none;">Submit Answer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
