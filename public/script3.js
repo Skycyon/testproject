@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const img = document.createElement("img");
-        img.src = `/assets/pictures/${filename}`;
+        img.src = `assets/pictures/${filename}`;
         img.alt = `Option ${label}`;
 
         const radio = document.createElement("input");

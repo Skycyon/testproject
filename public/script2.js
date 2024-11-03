@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const testType = Math.random() > 0.5 ? "Sequence" : "Reverse";
 
         // Set the audio source and display the test type
-        audioElement.src = `/assets/audio/${selectedAudio}`;
+        audioElement.src = `assets/audio/${selectedAudio}`;
         testLabel.textContent = `Test Type: ${testType}`;
         
         // Extract the correct answer based on the file name (without extension)
